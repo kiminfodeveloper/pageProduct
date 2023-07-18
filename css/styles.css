@@ -41,22 +41,38 @@ nav li a:hover {
 }
 
 .content-container {
+  border-radius: 2em;
   background-color: #333;
   width: 600px;
   height: 500px;
   margin: auto;
   display: flex;
-  align-items: center; /* Centraliza verticalmente */
+  align-items: center;
+  border-bottom: 15px solid #a1a1a1;
+  border-right: 15px solid #a1a1a1;
+  transition: 0.5s;
+}
+
+.content-container:hover {
+  border-bottom: 5px solid #a1a1a1;
+  border-right: 5px solid #a1a1a1;
 }
 
 img {
+  border: 1px solid #fff;
   margin: 0;
   width: 200px;
   height: 280px;
-  margin-left: 20px; /* Adiciona margem para o canto esquerdo */
+  margin-left: 20px;
+}
+
+.title-store {
+  text-align: center;
+  padding: 10px;
 }
 
 .product-info {
+  padding-left: 15px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -64,8 +80,10 @@ img {
 
 .product-description {
   color: #fff;
-  padding: 20px;
+  padding-top: 20px;
   font-size: 16px;
+  height: 150px;
+  width: 250px;
 }
 
 .selection {

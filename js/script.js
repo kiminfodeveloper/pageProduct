@@ -65,4 +65,5 @@ document.addEventListener("DOMContentLoaded", () => {
   // adiciona eventos de clique às setinhas e chama a função de troca de imagem
   upArrow.addEventListener("click", () => changeImage(1));
   downArrow.addEventListener("click", () => changeImage(-1));
+  console.log(currentImageIndex);
 });
