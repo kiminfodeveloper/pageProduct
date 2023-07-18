@@ -43,7 +43,7 @@ nav li a:hover {
 .content-container {
   border-radius: 2em;
   background-color: #333;
-  width: 600px;
+  width: 650px;
   height: 500px;
   margin: auto;
   display: flex;
@@ -72,10 +72,24 @@ img {
 }
 
 .product-info {
-  padding-left: 15px;
+  text-align: justify;
+  height: 350px;
+  width: 3700px;
+  border-radius: 5px;
+  background-color: #646464;
+  padding-left: 10px;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  border-right: 10px solid #000000;
+  border-bottom: 10px solid #000000;
+  margin-left: 5px;
+  transition: 0.5s;
+}
+
+.product-info:hover {
+  border-right: 5px solid #000000;
+  border-bottom: 5px solid #000000;
 }
 
 .product-description {
@@ -83,7 +97,7 @@ img {
   padding-top: 20px;
   font-size: 16px;
   height: 150px;
-  width: 250px;
+  width: 300px;
 }
 
 .selection {
